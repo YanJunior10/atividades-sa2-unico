@@ -31,7 +31,6 @@ header {
 .submenu {
     width: 1500px;
     display: flex;
-    justify-content: space-between;
     
 }
 
