@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container-grid {
+    background-color: black;
+    width: 1400px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+
+
+header {
+    background-color: black;
+    height: 200px;
+}
+
+
+.novo-menu {
+    background-color: black;
+    height: 80px;
+  
+}
+
+.submenu {
+    width: 1500px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.submenu a {
+    width: 100%;
+    background-color: white;
+    color: black;
+    font-size: 17px;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 3px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.submenu a:hover {
+    color: white;
+    background-color: black;
+    box-shadow:0 0 8px rgb(255, 255, 255)
+}
+
+
+.vantagens {
+    background-color: white;
+}
+
+.paginas{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.paginas a {
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.paginas a:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.caixa-pesquisa {
+    position: absolute;
+    left: 22%;
+    background: white;
+    height: 50px;
+    padding: 10px;
+    border-radius: 40px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+}
+
+
+
+.caixa-texto {
+    background: none;
+    border: 0;
+    outline: 0;
+    font-size: 16px;
+    padding: 0;
+    transition: 0.4s;
+    width: 0;
+}
+
+.btn-pesquisa {
+    width: 50px;
+    height: 80px;
+    border-radius: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+}
+
+.caixa-pesquisa:hover > .caixa-texto {
+    width: 800px;
+    padding-left: 20px;
+}
