@@ -18,19 +18,80 @@
 
 header {
     background-color: black;
-    height: 200px;
+    height: 120px;
 }
+
+
+/* teste menu speed*/
+
+.hof-main{
+    background-color:black
+}
+
+.hof-nav-menu{
+    display:flex;
+    padding:0;
+  
+    list-style:none
+}
+.hof-nav-menu li{
+    width:100%;padding:0 .5rem
+}
+.hof-nav-menu li a{
+    display:block;
+    padding:1rem;
+    color:#ffffff;
+    text-align:center;
+    border-radius:8px;
+    font-size:1.65rem;
+    border:1px solid #ffffff;
+    transition:.2s all
+}
+.hof-nav-menu li a:hover{
+    color:#FFF;
+    box-shadow:0 0 25px rgb(255, 255, 255)
+}
+.hof-nav-menu-mob{
+    width:100%;
+    display:none;
+    margin:3rem 0;
+    padding:1rem;
+    color:#ffffff;
+    text-align:center;
+    border-radius:8px;
+    font-size:1.8rem;
+    border:1px solid #ffffff;
+    background-color:#530053
+}
+
+
+
+
+
+
 
 
 .novo-menu {
     background-color: black;
-    height: 80px;
-  
+    height: 70px;
+    
+}
+
+.logomarca {
+    margin-left: 10px;
+   
+}
+
+.icones {
+    margin-right: 50px;
 }
 
 .submenu {
-    width: 1500px;
+    width: 1400px;
     display: flex;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-right: 100px;
     
 }
 
@@ -38,14 +99,16 @@ header {
     width: 100%;
     background-color: white;
     color: black;
-    font-size: 17px;
+    font-size: 15px;
     font-weight: bold;
     text-decoration: none;
     text-transform: uppercase;
     text-align: center;
     padding: 3px;
-    border-radius: 5px;
+    border-radius: 30px;
     margin-top: 20px;
+    margin-left: 45px;
+    align-items: center;
 }
 
 .submenu a:hover {
@@ -57,6 +120,9 @@ header {
 
 .vantagens {
     background-color: white;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 40px;
 }
 
 .paginas{
@@ -75,6 +141,225 @@ header {
     transform: scale(1.1);
 }
 
+
+
+
+
+#widget .title::after {
+    content: " ";
+    display: block;
+    height: 1px;
+    width: 1200px;
+    background-color: #CCCCCC;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 50px;
+
+}
+
+.title h2{
+    text-align: center;
+  
+}
+
+
+
+
+/*MELHORES JOGOS*/
+
+.melhores-jogos {
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.melhores-jogos img {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+ }
+ .melhores-jogos img:hover {
+     -webkit-transform: scale(1.1);
+     transform: scale(1.1);
+ }
+
+/* OPORTUNIDADES*/
+
+.oportunidades {
+    background-color: black;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.col {
+    margin-top: 100px !important;
+
+}
+
+
+/* DESTAQUES*/
+
+
+.secao-destaques {
+    background-color: black;
+    padding: 30PX 0;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    align-items: center;
+
+    
+}
+
+.secao-destaques .container {
+    
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+.bloco-destaques {
+    width: 70%;
+    height: 90%;
+    color: white;
+    
+}
+
+.bloco-destaques h2 {
+    font-size: 25px;
+    
+}
+
+.content-destaques {
+    
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+
+
+.card-destaques {
+    
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 300px;
+    height: 360px;
+    color: white;
+    margin-bottom: 32px;
+    background: var(--gradient);
+    box-shadow: 0px 0px 10px blueviolet, 0px 0px 30px green;
+}
+
+.card-destaques h3 {
+    padding-left: 20px;
+    padding-top: 5px;
+    font-size: 24;
+
+}
+
+.card-destaques p {
+    padding-left: 20px;
+    font-size: 16px;
+}
+
+/* MIX SUPERIOR */
+
+.mix {
+    background-color: black;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    
+}
+
+
+
+
+
+
+
+
+footer {
+    background-color: black;
+
+}
+
+.rodape {
+    margin-right: 100px;
+    margin-left: 100px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    
+}
+
+
+.links {
+    color: white;
+    margin-top: 70px;
+    
+}
+
+.links h2 {
+    font-size: 24px;
+}
+
+.links a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.links-footer {
+    display: flex;
+    justify-content: space-between;
+    width: 1500px;
+}
+
+.logo-rodape {
+    width: 100px;
+}
+
+.sociais h2 {
+    color: white;
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+
+.sociais input[type="email"]::placeholder{
+    color: pink;
+    font-weight: bold;
+}
+
+.botao-cadastrar {
+    width: 156px;
+    color: white;
+    background-color: red;
+    border: none;
+    font-size: 18px;
+}
+
+.siga-nos {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 0.8em;
+}
+
+
+
+
+
+
+/* pagina de login*/
 .caixa-pesquisa {
     position: absolute;
     left: 22%;
@@ -117,4 +402,24 @@ header {
 .caixa-pesquisa:hover > .caixa-texto {
     width: 800px;
     padding-left: 20px;
+    text-align: center;
 }
+
+
+
+/* configurações mobile*/
+
+@media(max-width:1410px){
+    .hof-nav-menu li a{
+        font-size:1.45rem;padding:1rem .5rem
+    }
+}
+
+@media(max-width:991px){
+    .hof-nav-menu{
+        display:none
+    }
+    .hof-nav-menu-mob{
+        display:block
+    }
+}    
